@@ -6,7 +6,7 @@ Powerful shell for rapidly deploying your WordPress projects.
 * Author : [Binaryla](http://binaryla.com)
 
 ## Contributors (in order of pull request)
-[Jose Delgado](https://github.com/josedelaranda), [Victor Huamani](https://github.com/).
+[Jose Delgado](https://github.com/josedelaranda), [Victor Huamani](https://github.com/victor).
 
 ## Getting Started with WP-Template Blank
 
