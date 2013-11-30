@@ -190,7 +190,7 @@ var webApp =  (function($){
     app.loadPagination($(this).attr('data-next'), function(){ });
   });
 
-  $('.menu-item a').click(function(e) {
+  $('.ajax a').click(function(e) {
     app.changeURL($(this));
     e.preventDefault();
   });

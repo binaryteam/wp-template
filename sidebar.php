@@ -21,16 +21,13 @@
 			<form id="quick_contact" action="<?php bloginfo('template_url'); ?>/bin/contact.php" method="post" class="quick_contact clearfix">
 				<fieldset class="form_content_1" id="form_content_1">
 					<p class="clearfix content_label">
-						<label class="label_hide" for="name">Your name</label>
-						<input id="name" class="text text_hide required" type="text" name="name" value="" />
+						<input placeholder="Tu nombre" id="name" class="text text_hide required" type="text" name="name" value="" />
 					</p>
 					<p class="clearfix content_label">
-						<label class="label_hide" for="email">Your e-mail</label>
-						<input id="email" class="text text_hide required email" type="text" name="email" value="" />
+						<input placeholder="Tu email"  id="email" class="text text_hide required email" type="text" name="email" value="" />
 					</p>
 					<p class="clearfix content_label">
-						<label class="label_hide" for="comments">Your message</label>
-						<textarea id="comments" class="text_hide required" name="comments" rows="8" cols="50"></textarea>
+						<textarea placeholder="Tu mensaje"  id="comments" class="text_hide required" name="comments" rows="8" cols="50"></textarea>
 					</p>
 
 					<p class="clearfix">

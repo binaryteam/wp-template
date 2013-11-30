@@ -88,10 +88,10 @@
 
 <?php } else { ?>
 
-  <meta property="og:url" content="<?php echo get_option('home'); ?>/"/>
-  <meta property="og:title" content="<?php bloginfo('name'); ?>" />
-  <meta property="og:description" content="<?php bloginfo('description'); ?>" />
-  <meta property="og:type" content="article" />
+	<meta property="og:url" content="<?php echo get_option('home'); ?>/"/>
+	<meta property="og:title" content="<?php bloginfo('name'); ?>" />
+	<meta property="og:description" content="<?php bloginfo('description'); ?>" />
+	<meta property="og:type" content="article" />
 	<meta property="og:image" content="<?php bloginfo( 'template_url' ); ?>/images/logo-facebook-icon.jpg" />
 
 <?php } ?>

@@ -2,7 +2,7 @@ head.js({jQuery: directory+'/js/jquery-1.9.1.min.js'});
 
 head.ready('jQuery', function(){
     head.js(
-    	{ jqueryMigrate: directory+'/js/jquery-migrate-1.1.0.min.js' },
+    	{ jqueryMigrate: directory+'/js/jquery-migrate-1.2.1.min.js' },
     	{ jQueryUI: 'http://code.jquery.com/ui/1.10.0/jquery-ui.js' },
     	{ contact: directory+'/js/contact.js' },
         { scrollpane: directory+'/js/jScrollPane/jquery.jscrollpane.min.js' },

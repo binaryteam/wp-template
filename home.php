@@ -72,6 +72,14 @@ Template Name: Home
 		//echo $up_theme_options['theme_footertext']['txt_texto_footer']['value']; 
 		//print_r($up_tabs);
 	?>
+	<div class="fancybox">
+		<a href="#container_fancy">OPEN IMAGE</a>
+	</div>
+	<div style="display:none">
+		<div id="container_fancy">
+			hellooooooooooooooooo
+		</div>
+	</div>
 	<div class="clearfix main_content_inner">
 		<?php echo get_option('acera_title_sep'); ?>
 		<img src="<?php echo get_option('option_id'); ?>">

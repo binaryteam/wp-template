@@ -17,7 +17,7 @@ if (!class_exists('acera_theme_options')) {
         }
 
         public function acera_add_menu() {
-            add_menu_page(__(MENU_TITLE), __(MENU_TITLE), 'administrator', 'acera_options' . MENU_SLUG, array(&$this, 'acera_display_page'), get_bloginfo('stylesheet_directory')."/acera-options/" . 'images/icon.png');
+            add_menu_page(__(MENU_TITLE), __(MENU_TITLE), 'administrator', 'acera_options' . MENU_SLUG, array(&$this, 'acera_display_page'), get_bloginfo('stylesheet_directory')."/theme-options/" . 'images/icon.png');
         }
 
         /* Function That Generates Main Content */
